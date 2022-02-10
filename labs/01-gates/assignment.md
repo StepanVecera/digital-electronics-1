@@ -1,5 +1,5 @@
 
-# Lab 1: YOUR_FIRSTNAME LASTNAME
+# Lab 1: stepan vecera
 
 ### De Morgan's laws
 
@@ -12,9 +12,9 @@
 ```vhdl
 architecture dataflow of demorgan is
 begin
-    f_o      <= -- WRITE YOUR CODE HERE
-    f_nand_o <= -- WRITE YOUR CODE HERE
-    f_nor_o  <= -- WRITE YOUR CODE HERE
+    f_o   <= (not b_i and a_i) or (not c_i and b_i) ;
+    fnand_o <= '1'; -- prepsat
+    fnor_o  <= (not b_i nand a_i) nor (not c_i nand not b_i);--wrong
 end architecture dataflow;
 ```
 
