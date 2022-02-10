@@ -8,4 +8,4 @@
 
 ~~skrjud~~ 
 
-[definitly not a rickroll]
+  ![definitly not a rickroll] (https://cs.wikipedia.org/wiki/Rickroll)
