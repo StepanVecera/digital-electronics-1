@@ -13,8 +13,8 @@
 architecture dataflow of demorgan is
 begin
     f_o   <= (not b_i and a_i) or (not c_i and b_i) ;
-    fnand_o <= '1'; -- prepsat
-    fnor_o  <= (not b_i nand a_i) nor (not c_i nand not b_i);--wrong
+    fnand_o <= (not b_i nand a_i) nand (not c_i nand not b_i);
+    fnor_o  <= not ((b_i nor not a_i) nor (b_i nor c_i));
 end architecture dataflow;
 ```
 
@@ -22,21 +22,23 @@ end architecture dataflow;
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |
-| 0 | 0 | 1 |  |  |  |
-| 0 | 1 | 0 |  |  |  |
-| 0 | 1 | 1 |  |  |  |
-| 1 | 0 | 0 |  |  |  |
-| 1 | 0 | 1 |  |  |  |
-| 1 | 1 | 0 |  |  |  |
-| 1 | 1 | 1 |  |  |  |
+| 0 | 0 | 0 | 1 |1 | 1|
+| 0 | 0 | 1 | 0 |0 | 0|
+| 0 | 1 | 0 | 0 |0 | 0|
+| 0 | 1 | 1 | 0 |0 | 0|
+| 1 | 0 | 0 | 1 |1 | 1|
+| 1 | 0 | 1 | 1 |1 | 1|
+| 1 | 1 | 0 | 0 |0 | 0|
+| 1 | 1 | 1 | 0 |0 | 0|
 
 ### Distributive laws
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![your figure]
+)
+![fig 1](https://user-images.githubusercontent.com/99388270/153748366-88502c08-f1c6-43d8-8d5e-b7f670081f5f.png)
 
 2. Link to your public EDA Playground example:
 
-   [https://www.edaplayground.com/...](https://www.edaplayground.com/...)
+   [my link](https://www.edaplayground.com/x/BGk7)
