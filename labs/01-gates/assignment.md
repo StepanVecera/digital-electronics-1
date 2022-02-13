@@ -13,8 +13,8 @@
 architecture dataflow of demorgan is
 begin
     f_o   <= (not b_i and a_i) or (not c_i and b_i) ;
-    fnand_o <= (not b_i nand a_i) nand (not c_i nand not b_i);
-    fnor_o  <= not ((b_i nor not a_i) nor (b_i nor c_i));
+    fnand_o <= ((b_i nand b_i) nand a_i) nand ((c_i nand c_i) nand (b_i nand b_i));
+    fnor_o  <= ((b_i nor (a_i nor a_i)) nor (b_i nor c_i)) nor((b_i nor (a_i nor a_i)) nor (b_i nor c_i));
 end architecture dataflow;
 ```
 
@@ -35,8 +35,8 @@ end architecture dataflow;
 
 1. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-![fig 1 demorgan](https://user-images.githubusercontent.com/99388270/153748610-0689d135-150d-4b0f-91e8-582e908e775f.png)
+![distributive laws](https://user-images.githubusercontent.com/99388270/153749635-81b33703-2f6a-4b65-af6a-0d003f5bdb2c.png)
 
 2. Link to your public EDA Playground example:
 
-   [my link](https://www.edaplayground.com/x/BGk7)
+   [my link](https://www.edaplayground.com/x/AhjY)
