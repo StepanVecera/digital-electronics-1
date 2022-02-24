@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Feb 24 12:16:04 2022
+# Process ID: 12240
+# Current directory: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1408 D:\Documents\vecera 230345\digital-electronics-1\labs\03-vivado\multiplexer\multiplexer.xpr
+# Log file: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer/vivado.log
+# Journal file: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1005.867 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 24 12:16:29 2022...

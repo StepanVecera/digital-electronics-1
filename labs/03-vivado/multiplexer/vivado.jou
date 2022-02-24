@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Feb 24 12:16:04 2022
+# Process ID: 12240
+# Current directory: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1408 D:\Documents\vecera 230345\digital-electronics-1\labs\03-vivado\multiplexer\multiplexer.xpr
+# Log file: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer/vivado.log
+# Journal file: D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Documents/vecera 230345/digital-electronics-1/labs/03-vivado/multiplexer/multiplexer.xpr}
