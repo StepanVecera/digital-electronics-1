@@ -35,11 +35,13 @@ end architecture Behavioral;
 ```
 
 2. Screenshot with simulated time waveforms. Try to simulate both flip-flops in a single testbench with a maximum duration of 200 ns, including reset. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
+![prubeh5-s](https://user-images.githubusercontent.com/99388270/158644536-5a82ff4b-ae52-47af-8941-253eb5c6ecdd.png)
 
-   ![your figure]()
+   
 
 ### Shift register
 
 1. Image of the shift register `top` level schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
+![top architecture](https://user-images.githubusercontent.com/99388270/158644385-ea587c18-980a-4f99-8fe8-5c21b6b20e0a.jpg)
 
-   ![your figure]()
+   
