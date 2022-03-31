@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 31 11:21:39 2022
+# Process ID: 8272
+# Current directory: D:/Documents/vecera 230345/digital-electronics-1/labs/07-display_driver/display_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5432 D:\Documents\vecera 230345\digital-electronics-1\labs\07-display_driver\display_driver\display_driver.xpr
+# Log file: D:/Documents/vecera 230345/digital-electronics-1/labs/07-display_driver/display_driver/vivado.log
+# Journal file: D:/Documents/vecera 230345/digital-electronics-1/labs/07-display_driver/display_driver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Documents/vecera 230345/digital-electronics-1/labs/07-display_driver/display_driver/display_driver.xpr}
+update_compile_order -fileset sources_1
