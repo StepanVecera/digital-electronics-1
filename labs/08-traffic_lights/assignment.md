@@ -93,4 +93,5 @@ p_traffic_fsm : process(clk)
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+  ![PRUBEH TRAFIC](https://user-images.githubusercontent.com/99388270/162060824-a39688f3-4ca0-4d7c-993c-53d1f648643f.png)
+
