@@ -1,6 +1,7 @@
 0.7
-2020.1
-May 27 2020
-20:09:33
-D:/Documents/vecera 230345/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sim_1/new/tb_tlc.vhd,1648720520,vhdl,,,,tb_tlc,,,,,,,,
-D:/Documents/vecera 230345/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/tlc.vhd,1648720970,vhdl,D:/Documents/vecera 230345/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sim_1/new/tb_tlc.vhd,,,tlc,,,,,,,,
+2020.2
+Nov 18 2020
+09:47:47
+D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sim_1/new/tb_tlc.vhd,1650109800,vhdl,,,,tb_tlc,,,,,,,,
+D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/clock_enable.vhd,1650109800,vhdl,D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/tlc.vhd,,,clock_enable,,,,,,,,
+D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/tlc.vhd,1650109800,vhdl,D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sim_1/new/tb_tlc.vhd,,,tlc,,,,,,,,

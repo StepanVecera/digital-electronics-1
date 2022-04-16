@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kola/digitalni ele/projektOSSS/p_UART/p_UART.srcs/sources_1/new/transmitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'transmitter'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/kola/digitalni ele/projektOSSS/p_UART/p_UART.srcs/sim_1/new/tb_transmitter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_transmitter'

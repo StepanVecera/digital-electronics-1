@@ -1,0 +1,97 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 16 13:51:06 2022
+# Process ID: 16148
+# Current directory: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4108 D:\škola\digitalni ele\vhdlskola\vhdlskola\digital-electronics-1\labs\08-traffic_lights\traffic.xpr
+# Log file: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/vivado.log
+# Journal file: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights'
+INFO: [Project 1-313] Project file moved from 'D:/Documents/vecera 230345/digital-electronics-1/labs/08-traffic_lights' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:nexys-a7-50t:part0:1.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Project 1-230] Project 'traffic.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivi/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 1111.609 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_tlc' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_tlc_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sources_1/new/tlc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tlc'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.srcs/sim_1/new/tb_tlc.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_tlc'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.sim/sim_1/behav/xsim'
+"xelab -wto c3f321b7fed348dd815df8d815818bd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tlc_behav xil_defaultlib.tb_tlc -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivi/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c3f321b7fed348dd815df8d815818bd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tlc_behav xil_defaultlib.tb_tlc -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=25000000)\]
+Compiling architecture behavioral of entity xil_defaultlib.tlc [tlc_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_tlc
+Built simulation snapshot tb_tlc_behav
+
+****** Webtalk v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/škola/digitalni -notrace
+couldn't read file "D:/škola/digitalni": no such file or directory
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 16 13:52:09 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_tlc_behav -key {Behavioral:sim_1:Functional:tb_tlc} -tclbatch {tb_tlc.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+source tb_tlc.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 10000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_tlc_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 10000ns
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1124.707 ; gain = 13.098
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 16 13:52:44 2022...

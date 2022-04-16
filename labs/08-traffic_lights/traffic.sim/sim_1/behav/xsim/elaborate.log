@@ -1,6 +1,6 @@
-Vivado Simulator 2020.1
+Vivado Simulator 2020.2
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto c3f321b7fed348dd815df8d815818bd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tlc_behav xil_defaultlib.tb_tlc -log elaborate.log 
+Running: D:/vivi/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto c3f321b7fed348dd815df8d815818bd5 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_tlc_behav xil_defaultlib.tb_tlc -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,6 +11,7 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=25000000)\]
 Compiling architecture behavioral of entity xil_defaultlib.tlc [tlc_default]
 Compiling architecture testbench of entity xil_defaultlib.tb_tlc
 Built simulation snapshot tb_tlc_behav

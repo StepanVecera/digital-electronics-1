@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sat Apr 16 13:51:06 2022
+# Process ID: 16148
+# Current directory: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4108 D:\škola\digitalni ele\vhdlskola\vhdlskola\digital-electronics-1\labs\08-traffic_lights\traffic.xpr
+# Log file: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/vivado.log
+# Journal file: D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/škola/digitalni ele/vhdlskola/vhdlskola/digital-electronics-1/labs/08-traffic_lights/traffic.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_tlc.tcl
+close_sim
